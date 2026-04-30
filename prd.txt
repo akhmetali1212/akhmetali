@@ -1,0 +1,9 @@
+PRD: Otbasy Companion AI
+
+Requirements:
+1. The system must extract text from scanned contract files.
+2. The system must validate BIN and IBAN format.
+3. The system must compare extracted data with reference values.
+4. The system must run locally (no external API calls).
+5. The system must handle errors (file not found or invalid format).
+6. Sensitive data must not be printed to logs.
