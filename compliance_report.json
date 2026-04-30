@@ -1,0 +1,32 @@
+{
+  "compliance_score": 40,
+  "status": "FAIL",
+  "audit_log": [
+    {
+      "requirement": "Text extraction from file",
+      "met": true,
+      "comment": "File is read successfully."
+    },
+    {
+      "requirement": "BIN and IBAN validation",
+      "met": false,
+      "comment": "IBAN validation missing."
+    },
+    {
+      "requirement": "On-premise (no external API)",
+      "met": false,
+      "comment": "External API request detected."
+    },
+    {
+      "requirement": "Error handling",
+      "met": false,
+      "comment": "No FileNotFoundError handling."
+    },
+    {
+      "requirement": "Sensitive data protection",
+      "met": false,
+      "comment": "Contract data printed to console."
+    }
+  ],
+  "security_check": "Unsafe"
+}
